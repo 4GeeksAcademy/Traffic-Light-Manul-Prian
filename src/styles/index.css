@@ -1,12 +1,40 @@
+body {
+    background-image: url('https://ep01.epimg.net/especiales/2020/coronavirus-covid-19/un-mundo-de-calles-vacias/img/galeria/02.jpg?time=1913'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }  
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.traffic-light-container {
+    background-color: rgb(59, 109, 1);
+    width: 120px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 30px; 
+    margin-right: auto;
+  }
+  
+  .light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+    border: 5px solid black;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .on {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 1);
+  }
+  
